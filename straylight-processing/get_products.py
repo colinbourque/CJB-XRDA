@@ -1,6 +1,8 @@
 from nustar_gen import wrappers, info, utils
 import os
 
+#### This script is mostly code written by MCB, with some modifications by CJB
+
 obsidnum = input('ObsID: ')
 regfilename = input('Region file name: ' )
 module = input('FPM: ')
