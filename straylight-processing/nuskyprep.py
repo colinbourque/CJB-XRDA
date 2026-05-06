@@ -9,6 +9,7 @@ here = os.getcwd()+'/'
 import subprocess
 from subprocess import DEVNULL, STDOUT
 
+#### This script is entirely written by RML: it is included here for completeness in the processing files
 
 # Required to run heasoft stuff in the background
 
