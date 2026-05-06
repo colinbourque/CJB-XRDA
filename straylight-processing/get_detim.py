@@ -3,7 +3,7 @@ import os
 
 #### This file primarily uses code written by MCB, with some modifications by CJB
 
-obsidnum = str(input('Please provide OBSID number: '))
+obsidnum = str(input('ObsID: '))
 
 here = os.getcwd()+'/'
 obs = info.Observation(seqid=obsidnum, path=here, evdir=f'./{obsidnum}/event_cl', out_path=f'./{obsidnum}/event_cl/')
