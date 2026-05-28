@@ -9,7 +9,7 @@ regfilename = input('Region file name: ' )
 module = input('FPM: ')
 eventfilename = f'nu{obsidnum}{module}01_cl_3to160_{regfilename.replace('.reg', '')}.evt'
 det1expofilename = f'nu{obsidnum}{module}_det1_expo.fits'
-phafilename = 'nu{obsidnum}{module}01_cl_3to160_{regfilename.replace('.reg', '')}_sr.pha'
+phafilename = f'nu{obsidnum}{module}01_cl_3to160_{regfilename.replace('.reg', '')}_sr.pha'
 arffilename = phafilename.replace('_sr.pha','.arf')
 
 #top = some path to your top level data directory.
