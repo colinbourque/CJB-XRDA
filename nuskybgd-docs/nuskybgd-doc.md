@@ -117,6 +117,7 @@ Directly out of `nuskybgd`, the `.xcm` file is set to load in the sky region spe
 
 In total, your new `.xcm` file should begin with imports that look something like:
 ![Example .xcm file which successfully loads in stray light products](example-xcm.png)
+(nu30401023002-unocc.pha is just a grouped spectrum, equivalent to an nu30401023002B01_cl_3to160_srcB_sr.pha spectrum directly out of the SL product creation)
 
 You can now open this in `Xspec` and fit the background.
 
