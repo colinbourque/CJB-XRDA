@@ -144,7 +144,7 @@ and fit the model. Now you can freeze the instrument continuum model
 
 >freeze intn:4
 
-Finally, treatment of the instrument lines component will depend on your source's spectrum. For spectrally soft sources, where minimal source photons are expected at high energies ($\gtrsim 70$ keV) you simply fit the instrument lines model between 120-160 keV,
+Finally, treatment of the instrument lines component will depend on your source's spectrum. For spectrally soft sources, where minimal source photons are expected at high energies ($\gtrsim 70$ keV) you can simply fit the instrument lines model between 80-120 keV,
 
 >notice 80.-120.  
 >fit  
