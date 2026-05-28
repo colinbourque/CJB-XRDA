@@ -49,5 +49,5 @@ for mod in ['A', 'B']:
     ev = obs.evtfiles[mod][0]
     reg_file = os.path.join(obs.path+'/'+seqid+'/'+'event_cl/', f'skysrc{mod}.reg')
     print(reg_file)
-    outscr = nsg.wrappers.make_spectra(ev, mod, reg_file, bgd_reg='None', runmkarf='no', outpath=outdir)
+    outscr = nsg.wrappers.make_spectra(ev, mod, reg_file, bgd_reg='None', runmkarf='no', extended='yes', outpath=outdir)
     print(outscr)
