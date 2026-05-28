@@ -8,6 +8,8 @@ This document is intended to be a practical guide for how to handle stray light 
 
 Scripts referenced in this document and attached to this repository are not entirely my own, but include code written by other collaborators such as MCB, RML, BWG, and possibly others. I have attempted to attribute credit where it is rightly due in the comments of each respective script.
 
+Do also note that this guide, and the accomapnying scripts, are written to produce *all* of the stray light and background products inside of one directory, `/event_cl/`. While this is the easiest way to write the guide, it is likely far less convenient than having two separate directories for stray light and `nuskybgd` products. Users are encouraged to modify the provided scripts to accomodate this adherent to a directory scheme that makes the most sense for them.
+
 ## Extracting Stray Light Products
 
 Stray light spectra (and light curves) are produced utilizing the stray light wrappers in `nustar-gen-utils`, and generally take three steps:
