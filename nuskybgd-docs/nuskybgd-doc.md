@@ -69,7 +69,7 @@ The remainder of this guide assumes no solar activity impacts your observation. 
 
  Effective use of `nuskybgd` involved generating a background model which correctly describes the physical sky background in the stray light pattern region. As such, it operates on a different set of data products than were produced with the stray light wrappers. Instead, `nuskybgd` takes sky region products generated from a region defined in physical, sky coordinates.
 
- Begin by producing a region equivalent to the stray light region from earlier, but this time save the region in `fk5` format. Regions for both detectors are required for `nuskybgd` to run even if stray light is only present on one detector, so make sure to generate them both.
+ Begin by producing a region equivalent to the stray light region from earlier, but from the cleaned event files and this time save the region in `fk5` format. Regions for both detectors are required for `nuskybgd` to run even if stray light is only present on one detector, so make sure to generate them both.
 
  ![Physical coordinates region in ds9](ds9-fk5reg.png)
 
